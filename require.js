@@ -46,7 +46,7 @@ let define, require;
     }
     
     function toJsUrl(modName) {
-    	return `${modName}.js?` + new Date().getTime();
+    	return `${modName}.js`;
     }
     
 	const mainModName = Array.from(document.getElementsByTagName('script'))
